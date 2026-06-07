@@ -25,7 +25,7 @@ const Cart = () => {
               </p>
               <button
                 onClick={() => removeFromCart(index)}
-                className="mt-3 px-4 py-2 bg-red-500 text-white rounded"
+                className="mt-3 px-4 py-2 bg-[#8C0649] text-white rounded"
               >
                 Remove
               </button>
