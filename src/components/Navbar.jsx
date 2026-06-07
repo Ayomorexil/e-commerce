@@ -1,13 +1,17 @@
 import { Link } from "react-router-dom";
 import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
+import logoicon from "../assets/logoicon.png";
 
 const Navbar = () => {
   const { cartItems } = useContext(CartContext);
 
   return (
     <nav className="flex justify-between items-center px-8 py-4">
-      <h1 className="text-2xl font-bold text-[#8C0649]">Isha's Creative</h1>
+      <h1 className="text-2xl font-bold text-[#8C0649]">
+         <img src={logoicon} alt="Isha's Creative Logo" className="h-14 w-auto object-contain" />
+        
+      </h1>
 
       <div className="flex gap-6">
         <Link to="/">Home</Link>

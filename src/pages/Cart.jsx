@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { CartContext } from "../context/CartContext";
 
 const Cart = () => {
-  const { cartItems } = useContext(CartContext);
+  const { cartItems, removeFromCart } = useContext(CartContext);
 
   const total = cartItems.reduce((sum, item) => sum + item.price, 0);
   console.log(total);
@@ -23,6 +23,12 @@ const Cart = () => {
               <p className="text-[#8C0649] font-bold">
                 ₦{item.price.toLocaleString()}
               </p>
+              <button
+                onClick={() => removeFromCart(index)}
+                className="mt-3 px-4 py-2 bg-red-500 text-white rounded"
+              >
+                Remove
+              </button>
             </div>
           ))}
 

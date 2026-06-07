@@ -6,7 +6,7 @@ const Home = () => {
     <div>
       {/* Hero Section */}
       <section className="text-center py-24 px-8 bg-pink-50">
-        <h1 className="text-5xl font-bold text-[#8C0649]">
+        <h1 className="text-5xl font-bold text-[#8C0649]">Isha's Creative 
           Premium Crochet Supplies
         </h1>
 
