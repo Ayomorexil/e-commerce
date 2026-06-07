@@ -82,7 +82,8 @@ const Home = () => {
           {[
             { title: "🧶 Yarns" },
             { title: "🧰 Accessories" },
-            { title: "⭐ Best Sellers" },
+            { title: "🪝 Hooksets" },
+            
           ].map((cat, i) => (
             <motion.div
               key={i}

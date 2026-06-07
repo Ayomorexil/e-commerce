@@ -78,6 +78,16 @@ if (sortOption === "a-z") {
   >
     🧰 Accessories
   </button>
+  <button
+    onClick={() => setSelectedCategory("Accessories")}
+    className={`px-4 py-2 rounded-lg transition ${
+      selectedCategory === "Hooksets"
+        ? "bg-[#8C0649] text-white"
+        : "bg-purple-100 hover:bg-purple-200"
+    }`}
+  >
+    🪝 Hooksets
+  </button>
 </div>
 
 <div className="flex justify-between items-center mb-6">
