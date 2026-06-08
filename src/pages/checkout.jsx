@@ -166,7 +166,7 @@ const Checkout = () => {
           {/* Place Order Button */}
           <button
             onClick={handlePlaceOrder}
-            className="w-full mt-8 bg-[#8C0649] text-white py-3 rounded-lg hover:opacity-90 transition"
+            className="w-full mt-9 bg-[#8C0649] text-white py-3 rounded-lg hover:opacity-90 transition"
           >
             Place Order
           </button>
