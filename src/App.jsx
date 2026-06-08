@@ -7,14 +7,13 @@ import Cart from "./pages/Cart";
 import Login from "./pages/Login";
 import ProductDetails from "./pages/ProductDetails";
 import Checkout from "./pages/Checkout";
-
 function App() {
   return (
     <BrowserRouter>
       <Navbar />
 
       <Routes>
-        <Route path="/order-success" element={<OrderSuccess />}/>
+        <Route path="/order-success" element={<OrderSuccess />} />
         <Route path="/checkout" element={<Checkout />} />
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<Products />} />
@@ -27,4 +26,3 @@ function App() {
 }
 
 export default App;
-
