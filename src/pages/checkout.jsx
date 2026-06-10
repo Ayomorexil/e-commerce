@@ -168,7 +168,7 @@ const Checkout = () => {
             onClick={handlePlaceOrder}
             className="w-full mt-9 bg-[#8C0649] text-white py-3 rounded-lg hover:opacity-90 transition"
           >
-            Place Order over here 
+            Place Order 
           </button>
         </div>
       </div>
